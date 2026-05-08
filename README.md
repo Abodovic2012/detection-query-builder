@@ -1,16 +1,83 @@
-# React + Vite
+# Detection Query Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-SIEM detection engineering tool for generating production-ready security detection queries across:
 
-Currently, two official plugins are available:
+- Splunk SPL
+- Microsoft Sentinel (KQL)
+- Wazuh (SIEM/Elastic-based detection queries)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🔍 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This tool helps SOC analysts and detection engineers quickly generate standardized queries for common cybersecurity detection use cases.
 
-## Expanding the ESLint configuration
+It supports dynamic parameter input and outputs ready-to-use queries for multiple security platforms.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+- Multi-SIEM query generation (Splunk, KQL, Wazuh)
+- Pre-built detection templates
+- Dynamic field customization
+- Copy-to-clipboard functionality
+- Lightweight React-based UI
+- Offline-compatible (no external dependencies)
+
+---
+
+## 🚨 Supported Detection Use Cases
+
+### 1. Authentication Attacks
+- Brute force authentication detection
+- Failed login spike analysis
+- Password spraying patterns
+
+### 2. Privilege Escalation
+- Admin role assignment detection
+- Suspicious privilege changes
+
+### 3. Endpoint Attacks
+- Lateral movement detection
+- Suspicious process injection
+- PowerShell exploitation patterns
+
+### 4. Network Attacks
+- DNS data exfiltration detection
+
+### 5. Email Security
+- Phishing email indicators
+
+---
+
+## 🧠 Query Outputs
+
+Each detection generates:
+
+- **Splunk SPL Query**
+- **Microsoft KQL Query**
+- **Wazuh Query**
+
+---
+
+## 🖥️ Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- Inline CSS styling
+- Native browser APIs
+
+---
+
+## 📸 UI Preview
+
+(Add screenshot here later)
+
+---
+
+## 🚀 How to Run
+
+```bash
+npm install
+npm run dev
