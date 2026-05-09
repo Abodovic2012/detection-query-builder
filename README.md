@@ -8,7 +8,7 @@ A multi-SIEM detection engineering tool for generating production-ready security
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This tool helps SOC analysts and detection engineers quickly generate standardized queries for common cybersecurity detection use cases.
 
@@ -16,7 +16,7 @@ It supports dynamic parameter input and outputs ready-to-use queries for multipl
 
 ---
 
-## ⚙️ Features
+## ⚙️Features
 
 - Multi-SIEM query generation (Splunk, KQL, Wazuh)
 - Pre-built detection templates
@@ -27,7 +27,7 @@ It supports dynamic parameter input and outputs ready-to-use queries for multipl
 
 ---
 
-## 🚨 Supported Detection Use Cases
+##  Supported Detection Use Cases
 
 ### 1. Authentication Attacks
 - Brute force authentication detection
@@ -51,7 +51,7 @@ It supports dynamic parameter input and outputs ready-to-use queries for multipl
 
 ---
 
-## 🧠 Query Outputs
+##  Query Outputs
 
 Each detection generates:
 
@@ -61,7 +61,7 @@ Each detection generates:
 
 ---
 
-## 🖥️ Tech Stack
+## 🖥️Tech Stack
 
 - React (Vite)
 - JavaScript (ES6+)
@@ -70,14 +70,24 @@ Each detection generates:
 
 ---
 
-## 📸 UI Preview
 
-(Add screenshot here later)
-
----
-
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 npm install
 npm run dev
+
+```bash
+http://localhost:5173
+
+
+## LIVE DEMO
+
+https://abodovic2012.github.io/detection-query-builder/
+
+
+##💻 Author
+
+MSc Eng Abdul Rahman Hawa
+
+please feel free to suggest any modification or asking for new tools for Cybersecurity
